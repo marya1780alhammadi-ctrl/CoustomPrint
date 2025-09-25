@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Custom Prints</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Our Products</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Available Prints</h2>
+    <ul>
+      <li>Poster Print <button onclick="addToCart('Poster Print')">Add to Cart</button></li>
+      <li>Canvas Print <button onclick="addToCart('Canvas Print')">Add to Cart</button></li>
+      <li>Mug Print <button onclick="addToCart('Mug Print')">Add to Cart</button></li>
+    </ul>
+    <p id="cart">🛒 Cart: 0 items</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
